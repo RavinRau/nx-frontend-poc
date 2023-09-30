@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-repo/ui-component": ["libs/ui-component/src/index.ts"],
+      "@nx-repo/ui-component/server": ["libs/ui-component/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
